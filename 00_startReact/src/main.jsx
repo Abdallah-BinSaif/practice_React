@@ -5,6 +5,7 @@ import Gellary from './App.jsx'
 import TodoList from './Todos.jsx'
 import './index.css'
 import Conditional from './Conditional.jsx'
+import Film from './Film.jsx'
 
 // createRoot(document.getElementById('root')).render(
 //   <StrictMode>
@@ -22,6 +23,6 @@ import Conditional from './Conditional.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Conditional></Conditional>
+    <Film></Film>
   </StrictMode>,
 )
