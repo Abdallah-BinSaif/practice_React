@@ -4,6 +4,7 @@ import Profile from './props.jsx'
 import Gellary from './App.jsx'
 import TodoList from './Todos.jsx'
 import './index.css'
+import Conditional from './Conditional.jsx'
 
 // createRoot(document.getElementById('root')).render(
 //   <StrictMode>
@@ -13,8 +14,14 @@ import './index.css'
 //   </StrictMode>,
 // )
 
+// createRoot(document.getElementById('root')).render(
+//   <StrictMode>
+//     <Profile />
+//   </StrictMode>,
+// )
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Profile />
+    <Conditional></Conditional>
   </StrictMode>,
 )

@@ -5,7 +5,7 @@ function Avatar ({name, imageId, size, proff, discover, nobel}){
     return(
         <>
         
-        <section className="m-4 p-4">
+        <section className="m-4 p-4 border-2 rounded-xl">
             <h2>{name}</h2>
             <img
               className="rounded-full"
