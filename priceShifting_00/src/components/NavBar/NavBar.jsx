@@ -1,5 +1,5 @@
-
-import {IoCloseSharp, IoMenu} from "react-icons/io5";
+import { Twirl as Hamburger } from 'hamburger-react';
+// import {IoCloseSharp, IoMenu} from "react-icons/io5";
 import {useState} from "react";
 import MenuItem from "../MenuItem/MenuItem.jsx";
 
@@ -39,14 +39,21 @@ const NavBar = () => {
     return (
         <div className="mb-12">
             <div className="bg-green-300 p-2 md:hidden" onClick={()=>setMenubar(!menubar)}>
-                {
-                    menubar? <IoCloseSharp></IoCloseSharp>:<IoMenu></IoMenu>
-                }
+                <Hamburger
+                    size={20}
+                    direction={"left"}
+                    duration={1}
+                    distance={"sm"}
+                ></Hamburger>
+
+                {/*{*/}
+                {/*    menubar? <IoCloseSharp></IoCloseSharp>:<IoMenu></IoMenu>*/}
+                {/*}*/}
 
 
 
             </div>
-            <ul className={`flex rounded-b-xl z-10 absolute md:static bg-green-300 ${menubar? "top-8":"-top-6"} duration-1000`}>
+            <ul className={`flex rounded-b-xl z-10 absolute md:static bg-green-300 ${menubar? "-top-6":"top-14"} duration-1000`}>
                 {
                     routes.map((route)=> <MenuItem key={route.id} route={route}></MenuItem>)
                 }
