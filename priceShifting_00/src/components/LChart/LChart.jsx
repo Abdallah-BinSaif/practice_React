@@ -4,7 +4,7 @@ import {useEffect, useState} from "react";
 const LChart = () => {
     const [students, setStudents] = useState([])
     useEffect(() => {
-        fetch("./student.json")
+        fetch("./students1.json")
             .then(res => res.json())
             .then(data => setStudents(data))
     }, []);
@@ -13,7 +13,7 @@ const LChart = () => {
     return (
         <div>
             <p>students data</p>
-            <LineChart width={600} height={400} data={students}>
+            <LineChart width={600} height={400} data={"students"}>
                 <CartesianGrid strokeDasharray="3 3"/>
                 <XAxis></XAxis>
                 <YAxis></YAxis>
