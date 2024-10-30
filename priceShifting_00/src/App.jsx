@@ -1,7 +1,9 @@
 
-import './App.css'
+import './App.css';
+import DataLoad from "./components/DataLoad/DataLoad.jsx";
+
 import NavBar from "./components/NavBar/NavBar.jsx";
-import PricingOption from "./components/PricingOption/PricingOption.jsx";
+// import PricingOption from "./components/PricingOption/PricingOption.jsx";
 
 
 function App() {
@@ -11,8 +13,10 @@ function App() {
   return (
     <div className="container mx-auto">
         <NavBar></NavBar>
-      {/*<h1>Vite + React</h1>*/}
-        <PricingOption></PricingOption>
+      {/*/!*<h1>Vite + React</h1>*!/*/}
+      {/*  <PricingOption></PricingOption>*/}
+      {/*  <LChart></LChart>*/}
+        <DataLoad></DataLoad>
     </div>
   )
 }

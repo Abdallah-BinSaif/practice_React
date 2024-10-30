@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "Alice Johnson", "age": 15, "grade": "10th", "Math": 80, "English": 92, "Biology": 78, "Chemistry": 85, "Physics": 90, "History": 88, "Economics": 75, "Computer Science": 82, "Geography": 89 },
+  { "id": 2, "name": "Bob Smith", "age": 16, "grade": "11th", "Math": 76, "English": 81, "Biology": 79, "Chemistry": 88, "Physics": 86, "History": 85, "Economics": 82, "Computer Science": 91, "Geography": 78 },
+  { "id": 3, "name": "Charlie Brown", "age": 14, "grade": "9th", "Math": 73, "English": 88, "Biology": 70, "Chemistry": 84, "Physics": 80, "History": 90, "Economics": 78, "Computer Science": 87, "Geography": 83 },
+  { "id": 4, "name": "Daisy Miller", "age": 17, "grade": "12th", "Math": 95, "English": 85, "Biology": 92, "Chemistry": 91, "Physics": 94, "History": 79, "Economics": 84, "Computer Science": 89, "Geography": 88 },
+  { "id": 5, "name": "Evan Davis", "age": 15, "grade": "10th", "Math": 85, "English": 82, "Biology": 81, "Chemistry": 74, "Physics": 79, "History": 77, "Economics": 80, "Computer Science": 86, "Geography": 85 },
+  { "id": 6, "name": "Fiona Carter", "age": 16, "grade": "11th", "Math": 88, "English": 94, "Biology": 90, "Chemistry": 85, "Physics": 89, "History": 83, "Economics": 76, "Computer Science": 91, "Geography": 79 },
+  { "id": 7, "name": "George Harris", "age": 17, "grade": "12th", "Math": 89, "English": 80, "Biology": 83, "Chemistry": 76, "Physics": 82, "History": 91, "Economics": 88, "Computer Science": 84, "Geography": 77 },
+  { "id": 8, "name": "Hannah Wilson", "age": 14, "grade": "9th", "Math": 84, "English": 90, "Biology": 86, "Chemistry": 78, "Physics": 75, "History": 80, "Economics": 79, "Computer Science": 83, "Geography": 87 },
+  { "id": 9, "name": "Ian Martinez", "age": 15, "grade": "10th", "Math": 88, "English": 79, "Biology": 85, "Chemistry": 87, "Physics": 81, "History": 75, "Economics": 83, "Computer Science": 80, "Geography": 90 },
+  { "id": 10, "name": "Jane Thompson", "age": 16, "grade": "11th", "Math": 92, "English": 83, "Biology": 90, "Chemistry": 85, "Physics": 88, "History": 79, "Economics": 78, "Computer Science": 82, "Geography": 85 },
+  { "id": 11, "name": "Kevin Walker", "age": 15, "grade": "10th", "Math": 81, "English": 78, "Biology": 76, "Chemistry": 83, "Physics": 77, "History": 84, "Economics": 79, "Computer Science": 88, "Geography": 86 },
+  { "id": 12, "name": "Laura Allen", "age": 17, "grade": "12th", "Math": 75, "English": 84, "Biology": 82, "Chemistry": 79, "Physics": 91, "History": 90, "Economics": 85, "Computer Science": 81, "Geography": 80 },
+  { "id": 13, "name": "Megan Young", "age": 14, "grade": "9th", "Math": 82, "English": 81, "Biology": 88, "Chemistry": 80, "Physics": 84, "History": 79, "Economics": 87, "Computer Science": 85, "Geography": 89 },
+  { "id": 14, "name": "Nate King", "age": 16, "grade": "11th", "Math": 88, "English": 77, "Biology": 79, "Chemistry": 83, "Physics": 78, "History": 86, "Economics": 82, "Computer Science": 90, "Geography": 84 },
+  { "id": 15, "name": "Olivia Scott", "age": 15, "grade": "10th", "Math": 86, "English": 83, "Biology": 91, "Chemistry": 89, "Physics": 92, "History": 79, "Economics": 80, "Computer Science": 84, "Geography": 78 },
+  { "id": 16, "name": "Paul Turner", "age": 17, "grade": "12th", "Math": 89, "English": 85, "Biology": 88, "Chemistry": 82, "Physics": 87, "History": 83, "Economics": 84, "Computer Science": 91, "Geography": 79 },
+  { "id": 17, "name": "Quinn Green", "age": 14, "grade": "9th", "Math": 80, "English": 82, "Biology": 84, "Chemistry": 78, "Physics": 81, "History": 83, "Economics": 77, "Computer Science": 85, "Geography": 88 },
+  { "id": 18, "name": "Rachel Adams", "age": 16, "grade": "11th", "Math": 79, "English": 92, "Biology": 88, "Chemistry": 85, "Physics": 82, "History": 84, "Economics": 81, "Computer Science": 83, "Geography": 76 },
+  { "id": 19, "name": "Sam White", "age": 15, "grade": "10th", "Math": 81, "English": 78, "Biology": 80, "Chemistry": 84, "Physics": 85, "History": 77, "Economics": 82, "Computer Science": 87, "Geography": 75 },
+  { "id": 20, "name": "Tina Lewis", "age": 17, "grade": "12th", "Math": 90, "English": 87, "Biology": 86, "Chemistry": 81, "Physics": 88, "History": 86, "Economics": 84, "Computer Science": 89, "Geography": 80 }
+]

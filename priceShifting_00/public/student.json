@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "Alice Johnson", "age": 15, "grade": "10th", "subjects": { "Math": 80, "English": 92, "Biology": 78 } },
+  { "id": 2, "name": "Bob Smith", "age": 16, "grade": "11th", "subjects": { "Chemistry": 85, "Physics": 89, "Math": 76 } },
+  { "id": 3, "name": "Charlie Brown", "age": 14, "grade": "9th", "subjects": { "History": 90, "English": 88, "Math": 73 } },
+  { "id": 4, "name": "Daisy Miller", "age": 17, "grade": "12th", "subjects": { "Math": 95, "Economics": 84, "Physics": 78 } },
+  { "id": 5, "name": "Evan Davis", "age": 15, "grade": "10th", "subjects": { "Chemistry": 70, "Math": 85, "Computer Science": 80 } },
+  { "id": 6, "name": "Fiona Carter", "age": 16, "grade": "11th", "subjects": { "Biology": 79, "History": 88, "English": 94 } },
+  { "id": 7, "name": "George Harris", "age": 17, "grade": "12th", "subjects": { "Math": 89, "Physics": 92, "Chemistry": 76 } },
+  { "id": 8, "name": "Hannah Wilson", "age": 14, "grade": "9th", "subjects": { "Math": 84, "English": 90, "Geography": 87 } },
+  { "id": 9, "name": "Ian Martinez", "age": 15, "grade": "10th", "subjects": { "Economics": 80, "Math": 88, "English": 79 } },
+  { "id": 10, "name": "Jane Thompson", "age": 16, "grade": "11th", "subjects": { "Biology": 82, "Math": 92, "Chemistry": 85 } },
+  { "id": 11, "name": "Kevin Walker", "age": 15, "grade": "10th", "subjects": { "Computer Science": 88, "Math": 81, "Physics": 76 } },
+  { "id": 12, "name": "Laura Allen", "age": 17, "grade": "12th", "subjects": { "History": 90, "Math": 75, "English": 84 } },
+  { "id": 13, "name": "Megan Young", "age": 14, "grade": "9th", "subjects": { "Geography": 87, "Math": 82, "History": 89 } },
+  { "id": 14, "name": "Nate King", "age": 16, "grade": "11th", "subjects": { "Physics": 78, "Economics": 85, "Math": 88 } },
+  { "id": 15, "name": "Olivia Scott", "age": 15, "grade": "10th", "subjects": { "Biology": 91, "Math": 86, "English": 83 } },
+  { "id": 16, "name": "Paul Turner", "age": 17, "grade": "12th", "subjects": { "Chemistry": 82, "Math": 89, "Computer Science": 91 } },
+  { "id": 17, "name": "Quinn Green", "age": 14, "grade": "9th", "subjects": { "Math": 80, "Geography": 77, "History": 83 } },
+  { "id": 18, "name": "Rachel Adams", "age": 16, "grade": "11th", "subjects": { "Biology": 88, "English": 92, "Math": 79 } },
+  { "id": 19, "name": "Sam White", "age": 15, "grade": "10th", "subjects": { "Economics": 75, "Math": 81, "Physics": 78 } },
+  { "id": 20, "name": "Tina Lewis", "age": 17, "grade": "12th", "subjects": { "History": 86, "Math": 90, "English": 87 } }
+]
