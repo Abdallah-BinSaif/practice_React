@@ -1,30 +1,42 @@
 import { StrictMode } from 'react'
 import * as ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider} from "react-router-dom"
 import './index.css'
-import Root, { loader as rootLoader } from './routes/root';
-import ErrorPage from './error-page';
-import Contact from './routes/contact';
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import Home from "./components/Home.jsx";
+import Users from "./components/Users.jsx";
+import Posts from "./components/Posts.jsx";
+import ContactUs from "./components/ContactUs.jsx";
+import UserDetail from "./components/UserDetail.jsx";
 
-
-const router = createBrowserRouter([
+const routes = createBrowserRouter([
   {
     path: "/",
-    element: <Root></Root>,
-    errorElement: <ErrorPage></ErrorPage>,
-    loader: rootLoader,
+    element: <Home></Home>,
     children:[
       {
-        path: "contacts/:contactId",
-        element:<Contact></Contact>
+        path: "/users",
+        loader: ()=> fetch("https://jsonplaceholder.typicode.com/users"),
+        element: <Users></Users>
       },
+      {
+        path:"/posts",
+        element: <Posts></Posts>,
+      },
+      {
+        path: "contact",
+        element: <ContactUs></ContactUs>,
+      },
+      {
+        path: "/user/:userId",
+        loader: ({params}) => fetch(`https://jsonplaceholder.typicode.com/users/${params.userId}`),
+        element: <UserDetail></UserDetail>
+      }
     ],
-  },
-  
-]);
+  }
+])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    <RouterProvider router={routes} />
   </StrictMode>,
 )
