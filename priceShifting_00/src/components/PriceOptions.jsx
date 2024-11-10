@@ -1,7 +1,5 @@
-import POption from "../POption/POption.jsx";
-
-const PricingOption = () => {
-
+import PriceOption from "../components/PricingOption.jsx"
+const PriceOptions = () => {
     const gymPricingOptions = [
         {
             id: 1,
@@ -117,15 +115,13 @@ const PricingOption = () => {
         }
     ];
 
-    console.log(gymPricingOptions[0].duration.split(" ")[1])
-
     return (
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
+        <div>
             {
-                gymPricingOptions.map(option=> <POption key={option.id} option={option}></POption>)
+                gymPricingOptions.map(option => <PriceOption key={option.id} price={option}></PriceOption>)
             }
         </div>
     );
 };
 
-export default PricingOption;
+export default PriceOptions;
