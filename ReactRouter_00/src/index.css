@@ -63,7 +63,6 @@ button:active {
 }
 
 #root {
-  display: flex;
   height: 100%;
   width: 100%;
 }
@@ -78,5 +77,4 @@ button:active {
 
 ul a.active{
   text-decoration: underline;
-  font-weight: bold;
 }

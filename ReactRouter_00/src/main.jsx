@@ -2,34 +2,32 @@ import { StrictMode } from 'react'
 import * as ReactDOM from 'react-dom/client'
 import './index.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import Home from "./components/Home.jsx";
-import Users from "./components/Users.jsx";
-import Posts from "./components/Posts.jsx";
-import ContactUs from "./components/ContactUs.jsx";
+import Home from "./pages/Home.jsx";
+import Users from "./pages/Users.jsx";
 import UserDetail from "./components/UserDetail.jsx";
 
-const routes = createBrowserRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
-    children:[
+    children: [
       {
         path: "/users",
-        loader: ()=> fetch("https://jsonplaceholder.typicode.com/users"),
-        element: <Users></Users>
+        loader: () => fetch("https://jsonplaceholder.typicode.com/users/"),
+        element: <Users></Users>,
       },
       {
-        path:"/posts",
-        element: <Posts></Posts>,
+        path: "/Posts",
+        element:<div>Posts</div>,
       },
       {
-        path: "contact",
-        element: <ContactUs></ContactUs>,
+        path: "/contact",
+        element:<div>Contact Us</div>
       },
       {
         path: "/user/:userId",
         loader: ({params}) => fetch(`https://jsonplaceholder.typicode.com/users/${params.userId}`),
-        element: <UserDetail></UserDetail>
+        element:<UserDetail></UserDetail>
       }
     ],
   }
@@ -37,6 +35,6 @@ const routes = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={routes} />
+    <RouterProvider router={router}/>
   </StrictMode>,
 )

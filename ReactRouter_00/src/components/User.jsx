@@ -1,20 +1,15 @@
-import {Link, useNavigate} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const User = ({user}) => {
-
-    const navigate = useNavigate();
-    const {name, email, id} = user;
-    const handleSeeDetails = () =>{
-        navigate(`/user/${id}`)
-    }
+    const {id, name,email, website} = user
     return (
-        <div className={"border-2 mb-2 ml-2 rounded-md p-2"}>
-            <h3>{name}</h3>
-            <p>Email: {email}</p>
-            <Link to={`/user/${id}`} >See Details</Link><br/>
-            <button onClick={handleSeeDetails}>See Details</button>
-
-        </div>
+        <Link className={"cursor-pointer"} to={`/user/${id}`}>
+            <div className={"border-2 border-green-200 rounded-xl p-2"}>
+                <h3>{name}</h3>
+                <p>Email: {email}</p>
+                <small>{website}</small>
+            </div>
+        </Link>
     );
 };
 
