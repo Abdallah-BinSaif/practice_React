@@ -1,6 +1,6 @@
 import Banner from "../components/Banner.jsx";
 import Heading from "../components/Heading.jsx";
-import {useLoaderData} from "react-router-dom";
+import {Outlet, useLoaderData} from "react-router-dom";
 import Categories from "../components/Categories.jsx";
 import CoffeeCards from "../components/CoffeeCards.jsx";
 
@@ -21,7 +21,7 @@ const Home = () => {
                 categories={categories}
             ></Categories>
             {/*  Dynamic coffees  */}
-            <CoffeeCards></CoffeeCards>
+            <Outlet></Outlet>
             Home.jsx
         </div>
     );

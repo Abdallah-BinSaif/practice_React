@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+nav ul a.active{
+    color: #3cb13c;
+    font-weight: bold;
+}
